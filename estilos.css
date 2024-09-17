@@ -1,0 +1,60 @@
+/* Estilos básicos para la barra de navegación */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Estilos para el logo y el título */
+.navbar span {
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.navbar img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+/* Estilos para la lista de navegación */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.navbar ul li {
+    margin-right: 20px;
+}
+
+/* Estilos para los enlaces */
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Estilos para los enlaces al pasar el ratón */
+.navbar ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de búsqueda */
+.navbar ul li button {
+    padding: 10px 15px;
+    background-color: #575757;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar ul li button:hover {
+    background-color: #ffffff;
+}
